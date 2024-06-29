@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(https://distinctivechesterfields.com/en-gb/wp-content/uploads/sites/12/2024/02/modern-interior-design-chesterfield-sofa.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Fname h1 {
+  color: #ab8e73;
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05em;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  font-family: "Open Sans", sans-serif;
+  position: sticky;
+}
+span {
+  /* color: #AB8E73; */
+  color: #d8cec6;
+}
+.home {
+  width: 100%;
+  height: 75vh;
+}
+.text-content {
+  color: #d8cec6;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  padding: 10px 10px;
+  margin-bottom: 25px;
+}
+.text-content h1 {
+  color: #d8cec6;
+}
+.text-content p {
+  font-size: 18px;
+}
+button {
+  font-size: 15px;
+  font-weight: 200px;
+  padding: 0.5em 1.3em;
+  margin: 2%;
+  border: none;
+  border-radius: 20px;
+  font-family: "Lato", sans-serif;
+  color: #785d43;
+  box-shadow: 2px 2px 5px #785d43;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #74573b;
+  color: antiquewhite;
+}
+.services {
+  width: 100%;
+  height: 50vh;
+  padding: 50px;
+  background-color: #dccab9;
+}
+h1 {
+  margin-top: 30px;
+  padding: 35px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #705943;
+}
+.imgs {
+  width: 280px;
+  height: 320px;
+  background-color: #e0d8d2;
+  border-radius: 20px;
+}
+.imgs img {
+  width: 250px;
+  height: 220px;
+  margin: 15px;
+}
+.imgs h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #88725d;
+}
+.Simages {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-text {
+  padding: 15px;
+  display: flex;
+}
+.about-text img {
+  width: 500px;
+}
+.about-content {
+  padding: 10px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #88725d;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 25vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #e0d8d2;
+  background-color: #3f3021;
+  position: relative;
+  bottom: 0%;
+}
+footer h1 {
+  color: #e0d8d2;
+}
